@@ -1,8 +1,11 @@
 from nose.tools import assert_equals
 
 
-class testFizzBuzz:
+class TestFizzBuzz:
 
+
+    def __init__(self):
+        pass
 
     def test_when_one_return_one(self):
         from fizz_buzz import FizzBuzz
