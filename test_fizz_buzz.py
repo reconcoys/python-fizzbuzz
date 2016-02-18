@@ -28,3 +28,9 @@ class TestFizzBuzz:
         fb = FizzBuzz()
         result = fb.fizzbuzz(9)
         assert_equals('fizz', result)
+
+    def test_when_multiple_of_five_return_five(self):
+        from fizz_buzz import FizzBuzz
+        fb = FizzBuzz()
+        result = fb.fizzbuzz(10)
+        assert_equals('buzz', result)
