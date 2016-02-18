@@ -16,3 +16,9 @@ class TestFizzBuzz:
         fb = FizzBuzz()
         result = fb.fizzbuzz(2)
         assert_equals(2, result)
+
+    def test_when_three_return_three(self):
+        from fizz_buzz import FizzBuzz
+        fb = FizzBuzz()
+        result = fb.fizzbuzz(3)
+        assert_equals('fizz', result)
