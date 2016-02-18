@@ -3,5 +3,8 @@ class FizzBuzz:
         pass
 
     def fizzbuzz(self, number):
-        return 'fizz' if number % 3 == 0 else number
 
+        if number % 3 == 0:
+            return 'fizz'
+        else:
+            return number
