@@ -17,19 +17,13 @@ class TestFizzBuzz:
         result = fb.fizzbuzz(2)
         assert_equals(2, result)
 
-    def test_when_three_return_three(self):
-        from fizz_buzz import FizzBuzz
-        fb = FizzBuzz()
-        result = fb.fizzbuzz(3)
-        assert_equals('fizz', result)
-
-    def test_when_multiple_of_three_return_three(self):
+    def test_when_multiple_of_three_return_fizz(self):
         from fizz_buzz import FizzBuzz
         fb = FizzBuzz()
         result = fb.fizzbuzz(9)
         assert_equals('fizz', result)
 
-    def test_when_multiple_of_five_return_five(self):
+    def test_when_multiple_of_five_return_buzz(self):
         from fizz_buzz import FizzBuzz
         fb = FizzBuzz()
         result = fb.fizzbuzz(10)
